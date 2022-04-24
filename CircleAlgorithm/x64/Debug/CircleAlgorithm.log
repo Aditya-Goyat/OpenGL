@@ -1,0 +1,25 @@
+﻿  Source.cpp
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(232,29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(235,34): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(244,55): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(314,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(315,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(317,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(320,13): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(322,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(407,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(408,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(409,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(412,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(413,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(414,19): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(418,13): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(419,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(421,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(422,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(459,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(465,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(466,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(471,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\CircleAlgorithm\Source.cpp(508,32): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CircleAlgorithm.vcxproj -> C:\OpenGL Project\CircleAlgorithm\x64\Debug\CircleAlgorithm.exe

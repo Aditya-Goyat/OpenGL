@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "23c936df-9abf-4cff-b5cd-06ee47c7ce6d": {
+      "ProjectGuid": "23c936df-9abf-4cff-b5cd-06ee47c7ce6d",
+      "DisplayName": "CameraMovement",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,48 @@
+﻿  Source.cpp
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(282,53): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(404,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(405,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(406,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(448,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(449,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(450,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(492,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(493,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+C:\OpenGL Project\SierpinskiTetrahedral\Source.cpp(494,26): warning C4305: 'argument': truncation from 'double' to '_Ty'
+          with
+          [
+              _Ty=float
+          ]
+  SierpinskiTetrahedral.vcxproj -> C:\OpenGL Project\SierpinskiTetrahedral\x64\Debug\SierpinskiTetrahedral.exe

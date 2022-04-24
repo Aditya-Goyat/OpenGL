@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\OpenGL Project\DDA_Algorithm\Source.cpp(127,55): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+C:\OpenGL Project\DDA_Algorithm\Source.cpp(173,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\DDA_Algorithm\Source.cpp(174,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\DDA_Algorithm\Source.cpp(177,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\DDA_Algorithm\Source.cpp(178,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\OpenGL Project\DDA_Algorithm\x64\Debug\vc120.pdb'; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  DDA_Algorithm.vcxproj -> C:\OpenGL Project\DDA_Algorithm\x64\Debug\DDA_Algorithm.exe

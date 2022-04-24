@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9161b136-a154-4d17-8f0f-63a9b68d2416": {
+      "ProjectGuid": "9161b136-a154-4d17-8f0f-63a9b68d2416",
+      "DisplayName": "SierpinskiTetrahedral",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

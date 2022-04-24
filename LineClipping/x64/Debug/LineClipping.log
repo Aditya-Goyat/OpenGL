@@ -1,0 +1,16 @@
+﻿  Source.cpp
+C:\OpenGL Project\LineClipping\Source.cpp(638,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(639,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(644,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(645,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(657,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(658,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(659,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(660,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(687,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(695,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(713,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(714,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(715,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\OpenGL Project\LineClipping\Source.cpp(716,16): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  LineClipping.vcxproj -> C:\OpenGL Project\LineClipping\x64\Debug\LineClipping.exe

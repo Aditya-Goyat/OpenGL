@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "090c71a7-296f-4e88-8560-72d236ae528a": {
+      "ProjectGuid": "090c71a7-296f-4e88-8560-72d236ae528a",
+      "DisplayName": "LineClipping",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

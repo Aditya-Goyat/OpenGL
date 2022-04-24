@@ -1,0 +1,10 @@
+﻿  Source.cpp
+C:\OpenGL Project\Fractals\Source.cpp(77,36): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\OpenGL Project\Fractals\Source.cpp(77,23): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\OpenGL Project\Fractals\Source.cpp(79,37): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\OpenGL Project\Fractals\Source.cpp(79,24): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\OpenGL Project\Fractals\Source.cpp(80,37): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\OpenGL Project\Fractals\Source.cpp(80,24): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\OpenGL Project\Fractals\Source.cpp(82,68): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+C:\OpenGL Project\Fractals\Source.cpp(82,39): warning C4244: 'argument': conversion from 'double' to 'GLint', possible loss of data
+  Fractals.vcxproj -> C:\OpenGL Project\Fractals\x64\Debug\Fractals.exe
