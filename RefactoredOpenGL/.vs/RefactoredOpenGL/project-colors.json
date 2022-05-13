@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b6b0d1e4-fa78-404d-b90f-f7939f8f7ae2": {
+      "ProjectGuid": "b6b0d1e4-fa78-404d-b90f-f7939f8f7ae2",
+      "DisplayName": "RefactoredOpenGL",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
