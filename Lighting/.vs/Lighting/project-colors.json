@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a46a6525-42aa-4142-973e-03d6c259fd2e": {
+      "ProjectGuid": "a46a6525-42aa-4142-973e-03d6c259fd2e",
+      "DisplayName": "Lighting",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
