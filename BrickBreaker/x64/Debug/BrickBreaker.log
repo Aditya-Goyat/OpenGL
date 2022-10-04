@@ -1,0 +1,6 @@
+﻿  game.cpp
+C:\OpenGL\BrickBreaker\game.cpp(152,74): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\OpenGL\BrickBreaker\x64\Debug\vc120.pdb'; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  BrickBreaker.vcxproj -> C:\OpenGL\BrickBreaker\x64\Debug\BrickBreaker.exe

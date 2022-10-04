@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1ad9c2c4-4beb-4683-a377-a9ad523a6d4d": {
+      "ProjectGuid": "1ad9c2c4-4beb-4683-a377-a9ad523a6d4d",
+      "DisplayName": "BrickBreaker",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
