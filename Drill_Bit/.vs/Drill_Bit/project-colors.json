@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "30dc679d-e70b-4a01-9fa1-dfbfbdacc37e": {
+      "ProjectGuid": "30dc679d-e70b-4a01-9fa1-dfbfbdacc37e",
+      "DisplayName": "Drill_Bit",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

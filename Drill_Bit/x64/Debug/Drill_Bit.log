@@ -1,0 +1,15 @@
+﻿  game.cpp
+C:\OpenGL\Drill_Bit\game.cpp(70,47): warning C4305: 'argument': truncation from 'double' to 'float'
+  resource_manager.cpp
+  shader.cpp
+  Source.cpp
+C:\OpenGL\Drill_Bit\Source.cpp(69,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  sprite_renderer.cpp
+  texture.cpp
+  text_renderer.cpp
+C:\OpenGL\Drill_Bit\text_renderer.cpp(80,33): warning C4838: conversion from 'FT_Pos' to 'unsigned int' requires a narrowing conversion
+  Generating Code...
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\OpenGL\Drill_Bit\x64\Debug\vc120.pdb'; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Drill_Bit.vcxproj -> C:\OpenGL\Drill_Bit\x64\Debug\Drill_Bit.exe
