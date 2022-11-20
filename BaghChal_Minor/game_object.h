@@ -14,11 +14,12 @@ class GameObject
 {
 public:
     // object state
-    glm::vec2   Position, Size, Velocity;
+    glm::vec2   Position, Size, Velocity, endPos, prevVelocity;
     glm::vec3   Color;
     float       Rotation;
-    bool        IsSolid;
+    bool        IsActive;
     bool        Destroyed;
+    float speed = 500.0f;
     // render state
     Texture2D   Sprite;
     // constructor(s)
@@ -27,5 +28,9 @@ public:
     // draw sprite
     virtual void Draw(SpriteRenderer& renderer);
     // move sprite
-    void Move(glm::vec2 startPos, glm::vec2 endPos);
+    void Move(float dt);
+    void Update(float dt);
+
+private:
+    float Approach(float startPos, float endPos, float dt);
 };

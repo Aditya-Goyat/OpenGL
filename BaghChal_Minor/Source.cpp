@@ -19,11 +19,12 @@ using namespace irrklang;
 // GLFW function declarations
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
+void mouse_button_callback(GLFWwindow* window, int button, int action, int mods);
 
 // The Width of the screen
-const unsigned int SCREEN_WIDTH = 800;
+const unsigned int SCREEN_WIDTH = 1920;
 // The height of the screen
-const unsigned int SCREEN_HEIGHT = 600;
+const unsigned int SCREEN_HEIGHT = 1080;
 
 Game Breakout(SCREEN_WIDTH, SCREEN_HEIGHT);
 
@@ -35,7 +36,7 @@ int main(int argc, char* argv[])
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
     glfwWindowHint(GLFW_RESIZABLE, false);
 
-    GLFWwindow* window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "BaghChal", nullptr, nullptr);
+    GLFWwindow* window = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "BaghChal", glfwGetPrimaryMonitor(), nullptr);
     glfwMakeContextCurrent(window);
 
     if (glewInit() != GLEW_OK)
@@ -46,12 +47,23 @@ int main(int argc, char* argv[])
 
     glfwSetKeyCallback(window, key_callback);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+    glfwSetMouseButtonCallback(window, mouse_button_callback);
 
     // OpenGL configuration
     // --------------------
     glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+
+    int width, height;
+    unsigned char* data = SOIL_load_image("Textures/cursor.png", &width, &height, 0, SOIL_LOAD_RGBA);
+    GLFWimage image;
+    image.height = height;
+    image.width = width;
+    image.pixels = data;
+
+    GLFWcursor *cursor = glfwCreateCursor(&image, 0, 0);
+    glfwSetCursor(window, cursor);
 
     // initialize game
     // ---------------
@@ -73,7 +85,7 @@ int main(int argc, char* argv[])
 
         // manage user input
         // -----------------
-        Breakout.ProcessInput(deltaTime);
+        Breakout.ProcessInput(deltaTime, window);
 
         // update game state
         // -----------------
@@ -101,6 +113,28 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
     // when a user presses the escape key, we set the WindowShouldClose property to true, closing the application
     if (key == GLFW_KEY_ESCAPE && action == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
+    if (key >= 0 && key < 1024)
+    {
+        if (action == GLFW_PRESS)
+            Breakout.Keys[key] = true;
+        else if (action == GLFW_RELEASE) {
+            Breakout.Keys[key] = false;
+            Breakout.keysProcessed[key] = false;
+        }
+    }
+}
+
+void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
+{
+    if (button >= 0 && button < 3)
+    {
+        if (action == GLFW_PRESS)
+            Breakout.Mouse[button] = true;
+        else if (action == GLFW_RELEASE) {
+            Breakout.Mouse[button] = false;
+            Breakout.mouseProcessed[button] = false;
+        }
+    }
 }
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)

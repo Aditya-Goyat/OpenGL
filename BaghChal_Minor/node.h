@@ -8,8 +8,15 @@ private:
 
 public:
 	std::vector<Node> connected;
+	bool isActive = false;
+	bool isOccupied = false;
 	
 	glm::vec2 GetPosition() {
 		return position;
+	}
+
+	void SetPosition(glm::vec2 position)
+	{
+		this->position = position;
 	}
 };
