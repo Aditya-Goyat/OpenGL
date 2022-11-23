@@ -1,0 +1,9 @@
+﻿  Source.cpp
+C:\OpenGL\AGPLab_02\Source.cpp(129,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\OpenGL\AGPLab_02\Source.cpp(143,31): warning C4305: '+=': truncation from 'double' to 'float'
+C:\OpenGL\AGPLab_02\Source.cpp(145,25): warning C4244: '=': conversion from 'unsigned __int64' to 'float', possible loss of data
+C:\OpenGL\AGPLab_02\Source.cpp(147,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\OpenGL\AGPLab_02\x64\Debug\vc120.pdb'; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  AGPLab_02.vcxproj -> C:\OpenGL\AGPLab_02\x64\Debug\AGPLab_02.exe

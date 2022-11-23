@@ -1,0 +1,23 @@
+﻿  Source.cpp
+C:\OpenGL\AGP_Test\Source.cpp(84,14): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\OpenGL\AGP_Test\Source.cpp(93,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\OpenGL\AGP_Test\Source.cpp(95,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\OpenGL\AGP_Test\Source.cpp(97,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\OpenGL\AGP_Test\Source.cpp(99,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\OpenGL\AGP_Test\Source.cpp(142,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\OpenGL\AGP_Test\Source.cpp(146,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\OpenGL\AGP_Test\Source.cpp(147,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\OpenGL\AGP_Test\Source.cpp(168,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\OpenGL\AGP_Test\Source.cpp(169,65): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\OpenGL\AGP_Test\Source.cpp(217,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OpenGL\AGP_Test\Source.cpp(220,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\OpenGL\AGP_Test\Source.cpp(226,2): warning C4551: function call missing argument list
+C:\OpenGL\AGP_Test\Source.cpp(234,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OpenGL\AGP_Test\Source.cpp(235,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\OpenGL\AGP_Test\Source.cpp(241,2): warning C4551: function call missing argument list
+C:\OpenGL\AGP_Test\Source.cpp(245,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\OpenGL\AGP_Test\Source.cpp(249,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\OpenGL\AGP_Test\Source.cpp(250,27): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\OpenGL\AGP_Test\Source.cpp(256,2): warning C4551: function call missing argument list
+C:\OpenGL\AGP_Test\Source.cpp(263,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  AGP_Test.vcxproj -> C:\OpenGL\AGP_Test\x64\Debug\AGP_Test.exe

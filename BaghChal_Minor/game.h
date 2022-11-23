@@ -8,12 +8,19 @@
 #include <vector>
 #include "node.h"
 #include "sheep.h"
+#include "tiger.h"
+#include "game_object.h"
 
 enum GameState {
     GAME_PLAY,
     GAME_MENU,
     GAME_OVER,
     GAME_OPTIONS,
+};
+
+enum Turn {
+    TIGER,
+    SHEEP
 };
 
 // Game holds all game-related state and functionality.
@@ -24,6 +31,7 @@ class Game
 public:
     // game state
     GameState               State;
+    Turn                    turn;
     bool                    Keys[1024];
     bool                    Mouse[3];
     unsigned int            Width, Height;
@@ -38,17 +46,24 @@ public:
     void Init();
     // game loop
     void ProcessInput(float dt, GLFWwindow* window);
-    void Update(float dt);
+    bool CheckIfAllSheepPlaced();
+    bool ChangeScene(const glm::vec2& mouseClick, GLFWwindow* window);
+    void Update(float dt, GLFWwindow* window);
     void Render();
     void DoCollisions();
     //check click
     Sheep* CheckSheepClick(glm::vec2 clickPos);
+    Tiger* CheckTigerClick(glm::vec2 clickPos);
     Node* CheckNodeClick(glm::vec2 clickPos);
     // reset
     void ResetLevel();
     void ResetPlayer();
 
+    void SetStuckSheep();
+    Node* GetNodeUnderGameObject(GameObject* gb);
+
 private:
     Node* GetActiveNode();
     Sheep* GetActiveSheep();
+    void SetOccupiedNodes();
 };

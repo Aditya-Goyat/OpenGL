@@ -89,7 +89,7 @@ int main(int argc, char* argv[])
 
         // update game state
         // -----------------
-        Breakout.Update(deltaTime);
+        Breakout.Update(deltaTime, window);
 
         // render
         // ------

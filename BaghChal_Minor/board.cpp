@@ -1,6 +1,10 @@
 #include "board.h"
 
 Board::Board() {
+		nodes[0].SetOccupiedByTiger(true);
+		nodes[3].SetOccupiedByTiger(true);
+		nodes[4].SetOccupiedByTiger(true);
+
 		//1st Line
 		nodes[0].SetPosition(glm::vec2(1033, 47));
 
@@ -34,31 +38,31 @@ Board::Board() {
 		nodes[21].SetPosition(glm::vec2(1197, 962));
 		nodes[22].SetPosition(glm::vec2(1492, 962));
 
-		nodes[0].connected = std::vector<Node>{ nodes[2], nodes[3], nodes[4], nodes[5] };
+		nodes[0].connected = std::vector<Node*>{ &nodes[2], &nodes[3], &nodes[4], &nodes[5] };
 
-		nodes[1].connected = std::vector<Node>{ nodes[2], nodes[7] };
-		nodes[2].connected = std::vector<Node>{ nodes[0], nodes[1], nodes[3], nodes[8] };
-		nodes[3].connected = std::vector<Node>{ nodes[0], nodes[2], nodes[4], nodes[9] };
-		nodes[4].connected = std::vector<Node>{ nodes[0], nodes[3], nodes[5], nodes[10] };
-		nodes[5].connected = std::vector<Node>{ nodes[0], nodes[4], nodes[6], nodes[11] };
-		nodes[6].connected = std::vector<Node>{ nodes[5], nodes[12] };
+		nodes[1].connected = std::vector<Node*>{ &nodes[2], &nodes[7] };
+		nodes[2].connected = std::vector<Node*>{ &nodes[0], &nodes[1], &nodes[3], &nodes[8] };
+		nodes[3].connected = std::vector<Node*>{ &nodes[0], &nodes[2], &nodes[4], &nodes[9] };
+		nodes[4].connected = std::vector<Node*>{ &nodes[0], &nodes[3], &nodes[5], &nodes[10] };
+		nodes[5].connected = std::vector<Node*>{ &nodes[0], &nodes[4], &nodes[6], &nodes[11] };
+		nodes[6].connected = std::vector<Node*>{ &nodes[5], &nodes[12] };
 
-		nodes[7].connected = std::vector<Node>{ nodes[1], nodes[8], nodes[13] };
-		nodes[8].connected = std::vector<Node>{ nodes[2], nodes[7], nodes[14], nodes[9] };
-		nodes[9].connected = std::vector<Node>{ nodes[3], nodes[8], nodes[15], nodes[10] };
-		nodes[10].connected = std::vector<Node>{ nodes[4], nodes[9], nodes[16], nodes[11] };
-		nodes[11].connected = std::vector<Node>{ nodes[5], nodes[10], nodes[17], nodes[12] };
-		nodes[12].connected = std::vector<Node>{ nodes[6], nodes[11], nodes[18] };
+		nodes[7].connected = std::vector<Node*>{ &nodes[1], &nodes[8], &nodes[13] };
+		nodes[8].connected = std::vector<Node*>{ &nodes[2], &nodes[7], &nodes[14], &nodes[9] };
+		nodes[9].connected = std::vector<Node*>{ &nodes[3], &nodes[8], &nodes[15], &nodes[10] };
+		nodes[10].connected = std::vector<Node*>{ &nodes[4], &nodes[9], &nodes[16], &nodes[11] };
+		nodes[11].connected = std::vector<Node*>{ &nodes[5], &nodes[10], &nodes[17], &nodes[12] };
+		nodes[12].connected = std::vector<Node*>{ &nodes[6], &nodes[11], &nodes[18] };
 
-		nodes[13].connected = std::vector<Node>{ nodes[7], nodes[14] };
-		nodes[14].connected = std::vector<Node>{ nodes[8], nodes[13], nodes[19], nodes[15] };
-		nodes[15].connected = std::vector<Node>{ nodes[9], nodes[14], nodes[20], nodes[16] };
-		nodes[16].connected = std::vector<Node>{ nodes[10], nodes[15], nodes[21], nodes[17] };
-		nodes[17].connected = std::vector<Node>{ nodes[11], nodes[16], nodes[22], nodes[18] };
-		nodes[18].connected = std::vector<Node>{ nodes[12], nodes[17] };
+		nodes[13].connected = std::vector<Node*>{ &nodes[7], &nodes[14] };
+		nodes[14].connected = std::vector<Node*>{ &nodes[8], &nodes[13], &nodes[19], &nodes[15] };
+		nodes[15].connected = std::vector<Node*>{ &nodes[9], &nodes[14], &nodes[20], &nodes[16] };
+		nodes[16].connected = std::vector<Node*>{ &nodes[10], &nodes[15], &nodes[21], &nodes[17] };
+		nodes[17].connected = std::vector<Node*>{ &nodes[11], &nodes[16], &nodes[22], &nodes[18] };
+		nodes[18].connected = std::vector<Node*>{ &nodes[12], &nodes[17] };
 
-		nodes[19].connected = std::vector<Node>{ nodes[14], nodes[20] };
-		nodes[20].connected = std::vector<Node>{ nodes[15], nodes[19], nodes[21] };
-		nodes[21].connected = std::vector<Node>{ nodes[16], nodes[20], nodes[22] };
-		nodes[22].connected = std::vector<Node>{ nodes[17], nodes[21] };
+		nodes[19].connected = std::vector<Node*>{ &nodes[14], &nodes[20] };
+		nodes[20].connected = std::vector<Node*>{ &nodes[15], &nodes[19], &nodes[21] };
+		nodes[21].connected = std::vector<Node*>{ &nodes[16], &nodes[20], &nodes[22] };
+		nodes[22].connected = std::vector<Node*>{ &nodes[17], &nodes[21] };
 }

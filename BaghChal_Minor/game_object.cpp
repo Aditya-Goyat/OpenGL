@@ -2,11 +2,11 @@
 #include <iostream>
 
 GameObject::GameObject()
-    : Position(0.0f, 0.0f), Size(1.0f, 1.0f), Velocity(0.0f), prevVelocity(Velocity), Color(1.0f), Rotation(0.0f), Sprite(), IsActive(false), Destroyed(false), endPos(0.0f, 0.0f) {
+    : Position(0.0f, 0.0f), Size(1.0f, 1.0f), Velocity(0.0f), prevVelocity(Velocity), Color(1.0f), Rotation(0.0f), Sprite(), IsActive(false), Destroyed(false), endPos(0.0f, 0.0f), isStuck(false) {
 }
 
 GameObject::GameObject(glm::vec2 pos, glm::vec2 size, Texture2D sprite, glm::vec3 color, glm::vec2 velocity)
-    : Position(pos), Size(size), Velocity(velocity), prevVelocity(Velocity), Color(color), Rotation(0.0f), Sprite(sprite), IsActive(false), Destroyed(false), endPos(pos) { }
+    : Position(pos), Size(size), Velocity(velocity), prevVelocity(Velocity), Color(color), Rotation(0.0f), Sprite(sprite), IsActive(false), Destroyed(false), endPos(pos), isStuck(false) { }
 
 void GameObject::Draw(SpriteRenderer& renderer)
 {
@@ -48,4 +48,12 @@ float GameObject::Approach(float startPos, float endPos, float dt) {
         return startPos - (dt * speed);
 
     return endPos;
+}
+
+void GameObject::SetStuck(bool isStuck) {
+    this->isStuck = isStuck;
+}
+
+bool GameObject::GetStuck() {
+    return isStuck;
 }

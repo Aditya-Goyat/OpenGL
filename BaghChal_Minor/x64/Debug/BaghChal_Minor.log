@@ -1,4 +1,10 @@
-﻿  game.cpp
+﻿  Source.cpp
+C:\OpenGL\BaghChal_Minor\Source.cpp(81,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  game.cpp
+C:\OpenGL\BaghChal_Minor\game.cpp(93,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  scenemanager.cpp
+  Generating Code...
+C:\OpenGL\BaghChal_Minor\game.cpp(310): warning C4715: 'Game::ChangeScene': not all control paths return a value
 glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\OpenGL\BaghChal_Minor\x64\Debug\vc120.pdb'; linking object as if no debug info
 soil2-debug.lib(SOIL2.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(SOIL2.obj)' or at 'C:\OpenGL\BaghChal_Minor\x64\Debug\soil2-debug.pdb'; linking object as if no debug info
 soil2-debug.lib(image_DXT.obj) : warning LNK4099: PDB 'soil2-debug.pdb' was not found with 'soil2-debug.lib(image_DXT.obj)' or at 'C:\OpenGL\BaghChal_Minor\x64\Debug\soil2-debug.pdb'; linking object as if no debug info

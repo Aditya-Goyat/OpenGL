@@ -31,6 +31,10 @@ public:
     void Move(float dt);
     void Update(float dt);
 
+    void SetStuck(bool isStuck);
+    bool GetStuck();
+
 private:
     float Approach(float startPos, float endPos, float dt);
+    bool isStuck = true;
 };
